@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: black;
+}
+
+#rawr {
+  display: none;
+}
+
+.container .left h5 {
+  color: white;
+}
+
+.right h3 {
+  color: white;
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 70%;
+  }
+
+  #rawr {
+    display: inline-block;
+    color: white;
+  }
+
+  .container .left h5 {
+    color: red;
+  }
+}
